@@ -1,0 +1,64 @@
+.header{
+    height: 72vh;
+    margin:30px auto;
+    background-image: url(https://images5.alphacoders.com/135/1350723.png);
+    background-size: cover;
+    position: relative;
+    border-radius:  30px;
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 2.8vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2{
+    margin-top: 15px;
+    font-weight: bold;
+    color: #08f171;
+    font-size: max(4.5vw,22px);
+}
+
+.header-contents p{
+    color: #08f171;
+    font-size: 2vw;
+}
+
+.header-contents button{
+    background-color: #08f171;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width:1050px){
+    
+    .header-contents{
+        max-width: 45%;
+    }
+}
+
+@media (max-width:750px){
+    
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents p{
+        display: none;
+    }
+
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}

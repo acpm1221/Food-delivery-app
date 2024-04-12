@@ -1,0 +1,54 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content-left,
+  .footer-content-center,
+  .footer-content-right {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .footer-content-left img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-social-icons img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .footer-content-center ul,
+  .footer-content-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content-center h2,
+  .footer-content-right h2,
+  .footer-content-center li,
+  .footer-content-right li,
+  .footer-copyright {
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+  }
+  
+  .footer-content-center h2:hover,
+  .footer-content-right h2:hover,
+  .footer-content-center li:hover,
+  .footer-content-right li:hover,
+  .footer-copyright:hover {
+    color: #08f171; /* Change text color on hover */
+  }
+  
